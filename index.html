@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div>Task 1</div>
+   <div>Игра Угадай число С помощью функции при загрузке страницы генерируйте случайное число от 0 до 9. Добавьте его в переменную. Создайте input[type = text] и кнопку. На кнопку добавьте функцию, которая читает введенное пользователем число в элемент input. Проверьте введеное число: - не ввел ли пользователь пустую строку - ввел ли пользователь число. Сравните введенное и загаданное число. Если они совпали - выведите alert с поздравлением и перезагрузите страницу. Если не совпали - выведите alert с сообщением (больше или меньше введенное число загаданному).</div>
+   <input type="text" id="your-num">
+   <button id="btn">Угадай!</button>
+
+   <div>Task 2</div>
+   <div>Создайте кнопку. После первого нажатия кнопка дожна сменить текст на себе на "Не нажимать", и вывести на экран количество оставшихся попыток - 2. После 2 нажатий кнопки, она должна скрыть сама себя.</div>
+   <button id="btn2">Нажми на меня</button>
+   <div class="attempt"></div>
+
+   <div>Task 3</div>
+   <div>Создайте два поля для ввода чисел. После ввода и нажатия кнопки - выведите большее число.</div>
+   <div><input type="number" id="inpOne"></div>
+   <div><input type="number" id="inpTwo"></div>
+   <button id="bigNum">Сравни</button>
+   <div class="out"></div>
+
+   <div>Task 4</div>
+   <div>Создайте два поля. В одно пользователь вводит день рождения, во второй - месяц (в виде числа). Выведите знак зодиака под каким родился пользователь.</div>
+   <div><input type="number" id="day" placeholder="День"></div>
+   <div><input type="number" id="month" placeholder="Месяц"></div>
+   <button class="btnZ">Твой знак</button>
+   <div class="zodiac"></div>
+
+   <div>Task 5</div>
+   <div>Создайте input куда пользователь может ввести год рождения. Программа должна вывести символ года по китайскому календарю. Подумайте как можно упростить программу.</div>
+   <div><input type="number" id="year" placeholder="Год рождения"></div>
+   <button class="btnY">Символ года</button>
+   <div class="china"></div>
+
+   <script src="./script.js"></script>
+</body>
+</html>
